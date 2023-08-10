@@ -1,0 +1,18 @@
+let variable - not allowed to re-declare but you can re-assign the value
+var variable- it is possible to re-declare and re-assign the value
+const variable- not allowed to reasign
+
+synchronous means code will be executed in sequence manner but in 
+Asynchronous particular step execute after the code execution
+
+anonymous function that means function without name 
+
+Scope-
+      global
+      function
+      Block
+
+Function-
+         General - Can accept parameters and return values
+         Arrow - Shorter syntax compared to general functions
+         Anonymous - Functions without a name

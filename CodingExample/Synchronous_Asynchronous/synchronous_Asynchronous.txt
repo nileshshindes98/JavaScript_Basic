@@ -1,0 +1,2 @@
+synchronous means code will be executed in sequence manner but in 
+Asynchronous particular step execute after the code execution
