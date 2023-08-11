@@ -1,0 +1,12 @@
+callback means-
+A function that is passed as an argument to another function is known as callback function.
+
+and their is two type 
+    sync callback
+    Async callback
+
+synchronous callback means code execute immediately, i.e. synchronously
+
+Asynchronous callback means a function that you provide as an argument to another function and 
+it gets executed later, after a certain operation completes. 
+It's a way to handle tasks that might take time without blocking other code from running 
