@@ -1,0 +1,10 @@
+slice = means create one array through existing array with help of index value 
+splice = means add and remove element with help of index value
+delete = means delete element with help of index value and leave the empty slot
+pop = remove the last element
+push = insert the element at last of array
+shift = remove the first element
+unshift = add the first element to the array
+flat = means concatenated (merge) the array with include their sub array by defult 1 merging level
+join = adding two array simultaneously
+concat = adding two array when one array finish then merge second array

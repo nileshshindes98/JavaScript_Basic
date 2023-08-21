@@ -1,0 +1,21 @@
+eventloop-event loop continuously checks for tasks in a queue and executes them one by one 
+when the stack is free
+
+in this event loop their is few step :
+ 
+callback- that keeps track of the currently executing function ,Each time a function is
+ called, a new stack frame is added to the top of the call stack, and when a function completes, its 
+ corresponding stack frame is removed from the stack
+
+callback queue- Asynchronous operations (like setTimeout,callback) are not executed 
+ immediately. Instead, their callbacks are placed in a callback queue when they are ready to be executed
+
+micro queue- it is same as callback queue but it store high priority (like promise) function to be executed 
+when stack is free
+
+eventloop-The event loop continuously checks two main things (1) callstack (2)callback queue
+ If the call stack is empty, and there are pending callbacks in the callback queue, the event loop 
+ will move a callback from the queue to the call stack, allowing it to be executed
+
+
+
